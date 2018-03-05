@@ -4,7 +4,7 @@ Description: The baseline resources used to create a Fargate environment
 Parameters:
   EnvironmentName:
     Type: String
-    Default: production
+    Default: voteapp
     Description: A name for the environment that this cloudformation will be part of.
 Mappings:
   # Hard values for the subnet masks. These masks define
